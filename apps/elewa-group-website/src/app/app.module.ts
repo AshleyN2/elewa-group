@@ -5,13 +5,14 @@ import { ScullyLibModule } from '@scullyio/ng-lib';
 
 import { AppComponent } from './app.component';
 
-import { HomePageModule } from '@elewa-group/pages/elewa/home'
+import { JobsSectionModule } from '@elewa-group/pages/elewa/home'
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule, 
     ScullyLibModule,
-    HomePageModule
+    BrowserModule,
+    JobsSectionModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
