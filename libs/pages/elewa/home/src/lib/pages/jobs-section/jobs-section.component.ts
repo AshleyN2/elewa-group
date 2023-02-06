@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 
 
-
 @Component({
   selector: 'elewa-group-jobs-section',
   templateUrl: './jobs-section.component.html',
