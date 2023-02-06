@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+//import { HomePageComponent } from './pages/home-page/home-page.component';
 import { JobsSectionComponent } from './pages/jobs-section/jobs-section.component';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -11,9 +12,10 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [JobsSectionComponent],
   imports: [CommonModule, RouterModule.forRoot(routes)],
-  exports: [JobsSectionComponent],
+  declarations: [JobsSectionComponent], //[HomePageComponent]
+  exports: [JobsSectionComponent], //[HomePageComponent]
 })
 export class JobsSectionModule {}
+//export class HomePageModule {}
 
