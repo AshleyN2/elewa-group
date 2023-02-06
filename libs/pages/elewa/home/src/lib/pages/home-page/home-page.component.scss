@@ -2,11 +2,29 @@
   min-width: 100vw;
   min-height: 100vh;
 
-
-  color: white;
+  background-color: --elewa-group-website-color-primary;
+  color: black;
   font-size: 5rem;
 
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.jobs {
+  min-width: 80vw;
+  min-height: 80vh;
+  font-family: var(--elewa-group-website-dmsans-regular);
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.jobs a{
+  color: black;
+  text-decoration: none;
+  font-family: var(--elewa-group-website-dmsans-bold);
 }
