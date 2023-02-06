@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { JobsSectionComponent } from './pages/jobs-section/jobs-section.component';
 import { Routes, RouterModule } from '@angular/router';
 
+// routes
 const routes: Routes = [
   {
     path: 'jobs',
