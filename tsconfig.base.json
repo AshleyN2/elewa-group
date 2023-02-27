@@ -17,6 +17,9 @@
     "baseUrl": ".",
     "paths": {
       "@elewa-group/elements/layout": ["libs/elements/layout/src/index.ts"],
+      "@elewa-group/elewa-careers-pages": [
+        "libs/elewa-careers-pages/src/index.ts"
+      ],
       "@elewa-group/features/components/banners": [
         "libs/features/components/banners/src/index.ts"
       ],
